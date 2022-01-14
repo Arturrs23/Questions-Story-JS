@@ -1,11 +1,32 @@
 "use strict";
-let userInputs = [];
+// the story with possible replacements
 let originalStory = 'Once upon a ${userInputs[0]}, there was a ${userInputs[1]} hearted, ${userInputs[3]} dragon that was so mean and ${userInputs[4]} ';
+//user inputs
+let userInputs = [];
+// how many questions
 let numberOfQuestions = 4;
+//what questions should appear
+let questionArray = ['Enter name', 'Enter something', 'Enter name', 'Enter name'];
+
+for  (let i = userInputs ; i >= 0; i--) 
+{ 
+    
+    
+    console.log(i);
 
 
 
-console.log(originalStory);
+};
+
+let questionsCounter = 0;
+
+
+
+
+
+
+
+
 
 
 
