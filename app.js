@@ -1,9 +1,7 @@
 "use strict";
 let userInputs = [];
-    
-
-
-let originalStory = 'Once upon a ${userInputs[0]}, there was a ${userInputs[1]} hearted, ${userInputs[2]} dragon that was so mean and ${userInputs[2]} ';
+let originalStory = 'Once upon a ${userInputs[0]}, there was a ${userInputs[1]} hearted, ${userInputs[3]} dragon that was so mean and ${userInputs[4]} ';
+let numberOfQuestions = 4;
 
 
 
