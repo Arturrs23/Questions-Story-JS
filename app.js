@@ -2,13 +2,13 @@
 
 
 // how many questions
-let numberOfQuestions = 4;
+let numberOfQuestions = 3;
 //what questions should appear
 let questionArray = [
-  "Ka Tevi sauc?",
-  "Cik Tev gadi ?",
-  "Tu lohs esi ?",
-  "Diršana"
+  "Your name? ",
+  "Your last name ? ",
+  "Can't be asked, right ? ",
+  "Best company that you have worked for? "
 ];
 //which question iam on
 let questionCounter = 0;
@@ -19,13 +19,13 @@ let userInputs = [];
 for (let i = numberOfQuestions; i >= 0; i--) {
   console.log(i);
   //print the questions + how many left to answer
-  userInputs.push(prompt(questionArray[questionCounter] + `(${numberOfQuestions--} questions left)`));
+  userInputs.push(prompt(questionArray[questionCounter] + `(${numberOfQuestions--}  questions left)`));
   //current "questionCounter" variable (it should go up)
   questionCounter++;
   console.log(questionCounter);
 }
 // the story with possible replacements
-let originalStory = `<h2>Sveiks ${userInputs[0]} ! Skatos ,ka Tev ir  ${userInputs[1]} gadu, ${userInputs[3]} es jau ta ari domaju! ${userInputs[4]} </h2>`;
+let originalStory = `<h2>Oh hello there ${userInputs[0]} ${userInputs[1]}!  ${userInputs[3]} ? that is the worst place ever ! I knew that you would say -  ${userInputs[2]} </h2>`;
 
  // End of User Inputs
  alert(
